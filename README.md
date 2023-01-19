@@ -138,3 +138,10 @@ $ eb --version
 
 > Now you are all set. You have made an AWS EC2 instance and successfully installed Node.js and Python in it. Now you can deploy Node and Python apps on this server.
 
+
+
+#### Solution of some errors
+
+If you get Keyboard Interrupt error while using "yum" command, do [this](https://itecnote.com/tecnote/python-yum-crashed-with-keyboard-interrupt-error/)
+
+
