@@ -140,8 +140,9 @@ $ eb --version
 
 
 
-#### Solution of some errors
+## Solution of some errors
 
 If you get Keyboard Interrupt error while using "yum" command, do [this](https://itecnote.com/tecnote/python-yum-crashed-with-keyboard-interrupt-error/)
 
+If you still get an error while installing a package, do [this](https://unix.stackexchange.com/questions/524552/upgraded-python-and-now-i-cant-run-yum-upgrade)
 
