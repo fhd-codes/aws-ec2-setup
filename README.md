@@ -1,19 +1,19 @@
-# Create an AWS-ES2 instance and install Node.js and Python
+# Create an AWS-EC2 instance and install Node.js and Python
 It is assumed that you have properly signed up to an AWS account and you are ready to use it.
 
-> The purpose of this file is to consolidate all the resources that are needed while working with AWS ES2 instance. Initial reference taken from [A Monk in Cloud](https://www.youtube.com/@amonkincloud). While difficulties while installation has also been mentioned with its solution. _Online resources have been referenced also_
+> The purpose of this file is to consolidate all the resources that are needed while working with AWS EC2 instance. Initial reference taken from [A Monk in Cloud](https://www.youtube.com/@amonkincloud). While difficulties while installation has also been mentioned with its solution. _Online resources have been referenced also_
 
-## Creating an ES2 instance
+## Creating an EC2 instance
 1- Signup for an Amazon AWS account
 
-2- Create an ES2 instance. Ref: [link_1](https://www.youtube.com/watch?v=BOIBZURNEIg)
+2- Create an EC2 instance. Ref: [link_1](https://www.youtube.com/watch?v=BOIBZURNEIg)
 
-3- Connect to that ES2 instance. Ref: [link_2](https://www.youtube.com/watch?v=GnRl6ETwHVE)
+3- Connect to that EC2 instance. Ref: [link_2](https://www.youtube.com/watch?v=GnRl6ETwHVE)
 
-*Now you are inside the ES2 instance (server computer)*
+*Now you are inside the EC2 instance (server computer)*
 
-## Installing Node in the ES2 instance
-1- To become a root user, type this in the ES2 terminal
+## Installing Node in the EC2 instance
+1- To become a root user, type this in the EC2 terminal
 ```
 $ sudo su -
 ```
@@ -44,9 +44,9 @@ $ nvm install 16
 > This command is installing node version 16x as Amazon Linux 2 doesnot supports current LTS release of Node.js. 
 [Reference](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html#:~:text=of%20Node.js.-,Warning,-Amazon%20Linux%202)
 
-> Write *_node --version_* and you will get the node version that is installed in your ES2 instance.
+> Write *_node --version_* and you will get the node version that is installed in your EC2 instance.
 
-## Installing Python and PIP on the ES2 intance
+## Installing Python and PIP on the EC2 intance
 
 Check if the python is currently installed or not?
 ```
@@ -130,5 +130,5 @@ $ eb --version
 [Reference](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html)
 
 
-> Now you are all set. You have made an AWS ES2 instance and successfully installed Node.js and Python in it. Now you can deploy Node and Python apps on this server.
+> Now you are all set. You have made an AWS EC2 instance and successfully installed Node.js and Python in it. Now you can deploy Node and Python apps on this server.
 
