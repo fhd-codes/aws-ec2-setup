@@ -46,6 +46,12 @@ $ nvm install 16
 
 > Write *_node --version_* and you will get the node version that is installed in your EC2 instance.
 
+If you get a message that "node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)", run the following commands
+
+```
+$ sudo apt-get remove nodejs
+$ nvm install 16.15.1
+```
 ## Installing Python and PIP on the EC2 intance
 
 Check if the python is currently installed or not?
