@@ -142,7 +142,10 @@ $ eb --version
 
 ## Solution of some errors
 
+### Error while using "yum"
+> It is because yum still uses Python2x version. But in the above steps, we have updated the default python to Python3x version. So we have to specify the Python version in yum files
+
 If you get Keyboard Interrupt error while using "yum" command, do [this](https://itecnote.com/tecnote/python-yum-crashed-with-keyboard-interrupt-error/)
 
-If you still get an error while installing a package, do [this](https://unix.stackexchange.com/questions/524552/upgraded-python-and-now-i-cant-run-yum-upgrade)
+If you get an error while installing a package from "yum", do [this](https://unix.stackexchange.com/questions/524552/upgraded-python-and-now-i-cant-run-yum-upgrade)
 
