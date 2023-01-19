@@ -52,6 +52,11 @@ If you get a message that "node: /lib64/libm.so.6: version `GLIBC_2.27' not foun
 $ sudo apt-get remove nodejs
 $ nvm install 16.15.1
 ```
+
+> *Note* that this will only install node in the current session of EC2. If you close the terminal and run again, you have to install node again.
+> To install it permanantely, you have to create *Amazon Machine Image (AMI)* from that instance.
+
+
 ## Installing Python and PIP on the EC2 intance
 
 Check if the python is currently installed or not?
