@@ -143,7 +143,14 @@ $ eb --version
 
 > Now you are all set. You have made an AWS EC2 instance and successfully installed Node.js and Python in it. Now you can deploy Node and Python apps on this server.
 
+## Creating Virtual Environments for Python Project
 
+Head to your project directory and write these lines to make and activate venv 
+```
+$ python3 -m venv env
+$ source ./env/bin/activate
+```
+> if you see (env) at the extreme left side of your terminal line, your venv has been activated in this project
 
 ## Solution of some errors/
 
