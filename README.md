@@ -145,7 +145,7 @@ $ eb --version
 
 
 
-## Solution of some errors
+## Solution of some errors/
 
 ### Error while using "yum"
 > It is because yum still uses Python2x version. But in the above steps, we have updated the default python to Python3x version. So we have to specify the Python version in yum files
@@ -153,4 +153,35 @@ $ eb --version
 If you get Keyboard Interrupt error while using "yum" command, do [this](https://itecnote.com/tecnote/python-yum-crashed-with-keyboard-interrupt-error/)
 
 If you get an error while installing a package from "yum", do [this](https://unix.stackexchange.com/questions/524552/upgraded-python-and-now-i-cant-run-yum-upgrade)
+
+
+
+## Installing Git and adding SSH key
+
+1- Write these commands in the terminal to install Git and check the version
+```
+$ sudo yum install git
+$ git --version
+```
+> If you see a version number, it means that git has successfully been installed.
+
+
+
+2- Go to the Github [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) and follow the instructions step-by-step.
+> Make sure that you install rsa and use based SSH key as it is supported by Github.
+
+
+
+
+
+*JazakAllah!*
+
+
+
+
+
+
+
+
+
 
