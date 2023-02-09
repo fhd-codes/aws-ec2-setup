@@ -201,6 +201,15 @@ For node applications:
 ```
 $ screen -d -m npm start
 ```
+
+Inorder to quit the session
+```
+$ screen -ls
+$ screen -X -S [session you want to kill] quit
+```
+> get the session name from first line 
+
+
 Reference [link](https://dev.to/akhileshthite/how-to-keep-ec2-instance-running-after-ssh-is-terminated-45k8)
 
 *JazakAllah!*
