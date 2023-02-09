@@ -186,6 +186,22 @@ $ pip install opencv-python-headless==4.6.0.66
 ```
 > For the newer versions of opencv-python-headless, you might get an error *'ZLIB_1.2.9' not found*
 
+## Running the code in the background
+
+Till now, if we run the code, it will start perfectly. But it will only keep running till the terminal window is opened.
+To make it continuously running, write the following lines in the terminal.
+
+For python projects
+
+```
+$ screen -d -m python app.py
+```
+For node applications:
+
+```
+$ screen -d -m npm start
+```
+Reference [link](https://dev.to/akhileshthite/how-to-keep-ec2-instance-running-after-ssh-is-terminated-45k8)
 
 *JazakAllah!*
 
