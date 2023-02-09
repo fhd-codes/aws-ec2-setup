@@ -182,9 +182,9 @@ $ git --version
 For installing opencv in the desktop environment, we use "__pip install opencv-python__", but this does not work on the server environment.
 For installing opencv on server, use the following command:
 ```
-$ pip install opencv-python-headless 
+$ pip install opencv-python-headless==4.6.0.66 
 ```
-
+> For the newer versions of opencv-python-headless, you might get an error *'ZLIB_1.2.9' not found*
 
 
 *JazakAllah!*
