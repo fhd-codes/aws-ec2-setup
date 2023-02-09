@@ -177,7 +177,13 @@ $ git --version
 2- Go to the Github [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) and follow the instructions step-by-step.
 > Make sure that you install rsa and use based SSH key as it is supported by Github.
 
+## Installing opencv-python
 
+For installing opencv in the desktop environment, we use "__pip install opencv-python__", but this does not work on the server environment.
+For installing opencv on server, use the following command:
+```
+$ pip install opencv-python-headless 
+```
 
 
 
