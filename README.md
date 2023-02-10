@@ -177,6 +177,7 @@ $ git --version
 2- Go to the Github [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) and follow the instructions step-by-step.
 > Make sure that you install rsa and use based SSH key as it is supported by Github.
 
+
 ## Installing opencv-python
 
 For installing opencv in the desktop environment, we use "__pip install opencv-python__", but this does not work on the server environment.
@@ -209,8 +210,23 @@ $ screen -X -S [session you want to kill] quit
 ```
 > get the session name from first line 
 
-
 Reference [link](https://dev.to/akhileshthite/how-to-keep-ec2-instance-running-after-ssh-is-terminated-45k8)
+
+
+## Update the code on server
+If you have done changes in the code files directly on the server, then "git pull <repo>" might not work
+Becasue your file might have uncommited changes on the server.
+To overwrite those files with the remote repo files, write the following lines in the server terminal:
+```
+$ git fetch --all
+$ git reset --hard origin/master
+```
+> git fetch downloads the latest from remote without trying to merge or rebase anything.
+>git reset resets the master branch to what you just fetched. The --hard option changes all the files in your working tree to match the files in origin/master.
+
+Ref [link](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
+
 
 *JazakAllah!*
 
