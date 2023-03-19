@@ -211,7 +211,7 @@ $ screen -X -S [session you want to kill] quit
 > get the session name from first line 
 
 Reference [link](https://dev.to/akhileshthite/how-to-keep-ec2-instance-running-after-ssh-is-terminated-45k8)
-
+[link 2](https://medium.com/idomongodb/how-to-npm-run-start-at-the-background-%EF%B8%8F-64ddda7c1f1)
 
 ## Update the code on server
 If you have done changes in the code files directly on the server, then "git pull <repo>" might not work
