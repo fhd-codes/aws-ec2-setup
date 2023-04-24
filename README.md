@@ -177,6 +177,7 @@ $ git --version
 2- Go to the Github [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) and follow the instructions step-by-step.
 > Make sure that you install rsa and use based SSH key as it is supported by Github.
 
+# Now, you can clone your git repo to your EC2 instance
 
 ## Installing opencv-python
 
