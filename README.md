@@ -129,7 +129,7 @@ $ source ~/.bash_profile
 
 4- Verify the pip installation
 ```
-$ pip version
+$ pip --version
 ```
 
 5- Use pip to install the EB CLI.
