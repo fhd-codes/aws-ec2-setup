@@ -228,6 +228,11 @@ $ git reset --hard origin/master
 Ref [link](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
 
 
+# Errors
+
+## libGL.so.1 missing on Amazon Linux 2022
+
+Solution [link](https://stackoverflow.com/questions/73227548/libgl-so-1-missing-on-amazon-linux-2022)
 
 *JazakAllah!*
 
